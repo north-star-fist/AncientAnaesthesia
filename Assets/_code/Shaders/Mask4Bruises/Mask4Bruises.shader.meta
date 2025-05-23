@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a8a1fdbfeccb65e47893f6bb7dfc1e6a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _MetalMapTex: {instanceID: 0}
+  - _NormalMapTex: {instanceID: 0}
+  - _EmissionMapTex: {instanceID: 0}
+  - _AltMaskTex: {instanceID: 0}
+  - _AltTex: {instanceID: 0}
+  - _AltNormalMapTex: {instanceID: 0}
+  - _AltTex2: {instanceID: 0}
+  - _AltNormalMapTex2: {instanceID: 0}
+  - _AltTex3: {instanceID: 0}
+  - _AltNormalMapTex3: {instanceID: 0}
+  - _AltTex4: {instanceID: 0}
+  - _AltNormalMapTex4: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

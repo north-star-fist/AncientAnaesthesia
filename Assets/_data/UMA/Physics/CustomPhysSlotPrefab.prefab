@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2513370320256688067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3665012759368342592}
+  - component: {fileID: 7737890528570990104}
+  m_Layer: 0
+  m_Name: CustomPhysSlotPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3665012759368342592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513370320256688067}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7737890528570990104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513370320256688067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd119136bbd4e0438551336689b6c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _areTriggersOnStart: 0
+  _areKinematicOnStart: 1
+  _useGravityOnStart: 0
+  _animatorEnabledOnStart: 1
+  _updateWhenOffScreenOnStart: 1
+  _updateTransformAfterRagdoll: 0
+  _physicsElements:
+  - {fileID: 11400000, guid: c3c04a6eb1e471d42804b1bafd0b98cb, type: 2}
+  - {fileID: 11400000, guid: b8dae9b23698e2f49aa7d177490d899e, type: 2}
+  - {fileID: 11400000, guid: 79d44a56206ec6b4da49672c78d64bcc, type: 2}
+  - {fileID: 11400000, guid: 7ee7b12bc3c89424e9d969f8cd7f2edb, type: 2}
+  - {fileID: 11400000, guid: b992c854aebe7a248801980a493e6871, type: 2}
+  - {fileID: 11400000, guid: 5667cdfbfd1e3fa4bb2fd6adf5afcd7f, type: 2}
+  - {fileID: 11400000, guid: adeae3b60c5aaae4ca274273a2ddaa60, type: 2}
+  - {fileID: 11400000, guid: 01ee6fa5c22f6ad44a8e266dda80eae3, type: 2}
+  - {fileID: 11400000, guid: ac2199a562610464abe23787e45969a3, type: 2}
+  - {fileID: 11400000, guid: ec35263840439a9448cd16be37e9166f, type: 2}
+  - {fileID: 11400000, guid: 43e3e11b5fb90e34cb758f9f0983d045, type: 2}
+  - {fileID: 11400000, guid: 48c4838ce3e03ad4f98505c556391503, type: 2}
+  - {fileID: 11400000, guid: 819360dc46b73c14eaa7a75641ecb286, type: 2}
+  - {fileID: 11400000, guid: d0938169ab22a2a428e89276adbbc2d2, type: 2}
+  - {fileID: 11400000, guid: f5cf7a214f193d9448b34253f2bfc92f, type: 2}
+  - {fileID: 11400000, guid: 05ab410cfecc4ae46aed14c06808998c, type: 2}
+  _setCollidersLayerOnStart: 1
+  _collidersLayerToSet: 3

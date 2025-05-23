@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bruised_skin
+  m_Shader: {fileID: 4800000, guid: a8a1fdbfeccb65e47893f6bb7dfc1e6a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALT_MASK_TEX
+  m_InvalidKeywords:
+  - _ALT_INHERIT_MAIN_TEX
+  - _METALLIC_MAP
+  - _NORMAL_MAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    Keep: Keep
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO_texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltEmissionMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltEmissionMapTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltMaskTex:
+        m_Texture: {fileID: 2800000, guid: cd2fe8a234f271b478f653094afab697, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltMetalMapTex:
+        m_Texture: {fileID: 2800000, guid: 650280757a94c364c9f19cec1b48670e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltMetalMapTex2:
+        m_Texture: {fileID: 2800000, guid: 650280757a94c364c9f19cec1b48670e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltMetalMapTex3:
+        m_Texture: {fileID: 2800000, guid: 650280757a94c364c9f19cec1b48670e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltMetalMapTex4:
+        m_Texture: {fileID: 2800000, guid: 650280757a94c364c9f19cec1b48670e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltNormalMapTex:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltNormalMapTex2:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltNormalMapTex3:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltNormalMapTex4:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltOcclusionMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltSpecMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltSpecMapTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltTex:
+        m_Texture: {fileID: 2800000, guid: d192c4a5b213b66438c39b13ce236e98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltTex2:
+        m_Texture: {fileID: 2800000, guid: d192c4a5b213b66438c39b13ce236e98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltTex3:
+        m_Texture: {fileID: 2800000, guid: d192c4a5b213b66438c39b13ce236e98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltTex4:
+        m_Texture: {fileID: 2800000, guid: d192c4a5b213b66438c39b13ce236e98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Texture:
+        m_Texture: {fileID: 2800000, guid: ccbae4cc71f63224ebf0c8934a2197d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_normal_Map:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Map1:
+        m_Texture: {fileID: 2800000, guid: ccbae4cc71f63224ebf0c8934a2197d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Map2:
+        m_Texture: {fileID: 2800000, guid: ccbae4cc71f63224ebf0c8934a2197d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Map3:
+        m_Texture: {fileID: 2800000, guid: ccbae4cc71f63224ebf0c8934a2197d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Norm1:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Norm2:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Norm3:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ccbae4cc71f63224ebf0c8934a2197d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMixer4:
+        m_Texture: {fileID: 2800000, guid: ee6aad151b91eb447b4aad3efba0a47b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMapTex:
+        m_Texture: {fileID: 2800000, guid: 650280757a94c364c9f19cec1b48670e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapTex:
+        m_Texture: {fileID: 2800000, guid: 10b42e19c0a08dc489e6d316f8f902cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _AltMaskChannel: 0
+    - _AltSmoothnessSource: 2
+    - _AltSmoothnessSource2: 2
+    - _AltSmoothnessSource3: 2
+    - _AltSmoothnessSource4: 2
+    - _Cull: 2
+    - _DetailMaskChannel: 0
+    - _DstBlend: 0
+    - _SmoothnessSource: 2
+    - _SrcBlend: 1
+    - _ZWrite: 1
+    m_Floats:
+    - _AO_boost: 1
+    - _AltMetallic: 1
+    - _AltMetallic2: 1
+    - _AltMetallic3: 1
+    - _AltMetallic4: 1
+    - _AltNormalScale: 1
+    - _AltNormalScale2: 1
+    - _AltNormalScale3: 1
+    - _AltNormalScale4: 1
+    - _AltOcclusionStrength: 1
+    - _AltPortion: 0
+    - _AltPortion2: 0
+    - _AltPortion3: 0
+    - _AltPortion4: 0
+    - _AltSmoothness: 1
+    - _AltSmoothness2: 1
+    - _AltSmoothness3: 1
+    - _AltSmoothness4: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.495
+    - _Detail1_strength: 0.5
+    - _Detail2_strength: 0.5
+    - _Detail3_strength: 0.4368932
+    - _DetailGloss1: 1
+    - _DetailGloss2: 0.7112322
+    - _DetailGloss3: 0.4144778
+    - _DetailNormalMapScale: 1
+    - _DetailNormalScale: 1
+    - _DetailTintScale: 1
+    - _DstBlend: 0
+    - _FadeMaxAlpha: 1
+    - _FadeMaxDistance: 5
+    - _FadeMinAlpha: 0
+    - _FadeMinDistance: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AltColor: {r: 0.28235295, g: 0, b: 1, a: 1}
+    - _AltColor2: {r: 0.2814312, g: 0, b: 1, a: 1}
+    - _AltColor3: {r: 0.60597116, g: 0.4509434, b: 1, a: 1}
+    - _AltColor4: {r: 1, g: 1, b: 1, a: 1}
+    - _AltEmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _AltEmissionColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _AltScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _AltSpecularTint: {r: 0.24999997, g: 0.24999997, b: 0.24999997, a: 1}
+    - _AltSpecularTint2: {r: 0.24999997, g: 0.24999997, b: 0.24999997, a: 1}
+    - _Base_Color: {r: 33333.02, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.9716981, g: 0.85905826, b: 0.84947187, a: 1}
+    - _DetailScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DetailSpecCol1: {r: 1, g: 0, b: 0, a: 1}
+    - _DetailSpecCol2: {r: 0.11724136, g: 1, b: 0, a: 1}
+    - _DetailSpecCol3: {r: 0, g: 0, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Mask1_color: {r: 1, g: 0.007352948, b: 0.007352948, a: 1}
+    - _Mask2_color: {r: 0.05082178, g: 0.6911764, b: 0.10823285, a: 1}
+    - _Mask3_color: {r: 0.049740463, g: 0.39120036, b: 0.6764706, a: 1}
+    - _SpecularTint: {r: 0.24999997, g: 0.24999997, b: 0.24999997, a: 1}
+  m_BuildTextureStacks: []
