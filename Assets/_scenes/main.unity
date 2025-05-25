@@ -4435,13 +4435,7 @@ MonoBehaviour:
       Effect:
         AnimForceParam: force
         AnimTriggerParam: hit
-        AnimBoolParameters:
-        - ParamName: low
-          Value: 0
-        - ParamName: left
-          Value: 0
-        - ParamName: right
-          Value: 0
+        AnimBoolParameters: []
         HitSfx: {fileID: 8300000, guid: a715ddf00ff7f24469c72404e8df85e9, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 5238538877814813142, guid: 47096eff328e11a418ace7db2d72aa97, type: 3}
@@ -4464,13 +4458,7 @@ MonoBehaviour:
       Effect:
         AnimForceParam: force
         AnimTriggerParam: hit
-        AnimBoolParameters:
-        - ParamName: low
-          Value: 0
-        - ParamName: left
-          Value: 0
-        - ParamName: right
-          Value: 0
+        AnimBoolParameters: []
         HitSfx: {fileID: 8300000, guid: faf53b5b59d41a14e97c8858f4664122, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 5238538877814813142, guid: 47096eff328e11a418ace7db2d72aa97, type: 3}
@@ -4493,13 +4481,7 @@ MonoBehaviour:
       Effect:
         AnimForceParam: force
         AnimTriggerParam: hit
-        AnimBoolParameters:
-        - ParamName: low
-          Value: 0
-        - ParamName: left
-          Value: 0
-        - ParamName: right
-          Value: 0
+        AnimBoolParameters: []
         HitSfx: {fileID: 8300000, guid: e989cc91820b3eb429576404f338d14b, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 6129441311094125560, guid: a82a5b3d9b8621a4db2725626986d87b, type: 3}
@@ -4535,13 +4517,7 @@ MonoBehaviour:
       Effect:
         AnimForceParam: force
         AnimTriggerParam: hit
-        AnimBoolParameters:
-        - ParamName: low
-          Value: 0
-        - ParamName: left
-          Value: 0
-        - ParamName: right
-          Value: 0
+        AnimBoolParameters: []
         HitSfx: {fileID: 8300000, guid: a37109c51cd477548ad1c882be3971d5, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 5238538877814813142, guid: 47096eff328e11a418ace7db2d72aa97, type: 3}
@@ -4564,13 +4540,7 @@ MonoBehaviour:
       Effect:
         AnimForceParam: force
         AnimTriggerParam: hit
-        AnimBoolParameters:
-        - ParamName: low
-          Value: 0
-        - ParamName: left
-          Value: 0
-        - ParamName: right
-          Value: 0
+        AnimBoolParameters: []
         HitSfx: {fileID: 8300000, guid: 58a5d36d6b134014ea5623d9802082e2, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 5238538877814813142, guid: 47096eff328e11a418ace7db2d72aa97, type: 3}
@@ -4593,13 +4563,7 @@ MonoBehaviour:
       Effect:
         AnimForceParam: force
         AnimTriggerParam: hit
-        AnimBoolParameters:
-        - ParamName: low
-          Value: 0
-        - ParamName: left
-          Value: 0
-        - ParamName: right
-          Value: 0
+        AnimBoolParameters: []
         HitSfx: {fileID: 8300000, guid: 0e5edb6bccf05984dad128fb1a9fc914, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 1240250018707908, guid: a6d0850150e4eef4ab9f3de0be2509a5, type: 3}
@@ -4623,12 +4587,8 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitJaw
         AnimBoolParameters:
-        - ParamName: low
-          Value: 1
-        - ParamName: left
-          Value: 1
         - ParamName: right
           Value: 0
         HitSfx: {fileID: 8300000, guid: 72a9b2a2a3eaa584d9ba3a8e2166f0fd, type: 3}
@@ -4652,12 +4612,8 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitJaw
         AnimBoolParameters:
-        - ParamName: low
-          Value: 1
-        - ParamName: left
-          Value: 1
         - ParamName: right
           Value: 0
         HitSfx: {fileID: 8300000, guid: b883c27c88428884fb3a10dcc42b8b47, type: 3}
@@ -4681,12 +4637,8 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitJaw
         AnimBoolParameters:
-        - ParamName: low
-          Value: 1
-        - ParamName: left
-          Value: 1
         - ParamName: right
           Value: 0
         HitSfx: {fileID: 8300000, guid: 2a295373a10441545bcaf619b61bea94, type: 3}
@@ -4712,12 +4664,8 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitJaw
         AnimBoolParameters:
-        - ParamName: low
-          Value: 1
-        - ParamName: left
-          Value: 0
         - ParamName: right
           Value: 1
         HitSfx: {fileID: 8300000, guid: 72a9b2a2a3eaa584d9ba3a8e2166f0fd, type: 3}
@@ -4741,12 +4689,8 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitJaw
         AnimBoolParameters:
-        - ParamName: low
-          Value: 1
-        - ParamName: left
-          Value: 0
         - ParamName: right
           Value: 1
         HitSfx: {fileID: 8300000, guid: b883c27c88428884fb3a10dcc42b8b47, type: 3}
@@ -4770,12 +4714,8 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitJaw
         AnimBoolParameters:
-        - ParamName: low
-          Value: 1
-        - ParamName: left
-          Value: 0
         - ParamName: right
           Value: 1
         HitSfx: {fileID: 8300000, guid: 2a295373a10441545bcaf619b61bea94, type: 3}
@@ -4801,14 +4741,10 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitEye
         AnimBoolParameters:
         - ParamName: right
           Value: 1
-        - ParamName: left
-          Value: 0
-        - ParamName: low
-          Value: 0
         HitSfx: {fileID: 8300000, guid: a715ddf00ff7f24469c72404e8df85e9, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 5238538877814813142, guid: 47096eff328e11a418ace7db2d72aa97, type: 3}
@@ -4830,14 +4766,10 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitEye
         AnimBoolParameters:
         - ParamName: right
           Value: 1
-        - ParamName: left
-          Value: 0
-        - ParamName: low
-          Value: 0
         HitSfx: {fileID: 8300000, guid: 1cd9fbc4bb2c19749aa2e61afd72aaaa, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 5238538877814813142, guid: 47096eff328e11a418ace7db2d72aa97, type: 3}
@@ -4859,14 +4791,10 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitEye
         AnimBoolParameters:
         - ParamName: right
           Value: 1
-        - ParamName: left
-          Value: 0
-        - ParamName: low
-          Value: 0
         HitSfx: {fileID: 8300000, guid: df7b0527bedef454c888055c076048ed, type: 3}
         ObjectsToSpawn:
         - Prefab: {fileID: 7856939199014537196, guid: 4686e0aed427a0846b30a33f81db7d1d, type: 3}
@@ -4890,13 +4818,9 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitEye
         AnimBoolParameters:
         - ParamName: right
-          Value: 0
-        - ParamName: left
-          Value: 1
-        - ParamName: low
           Value: 0
         HitSfx: {fileID: 8300000, guid: a715ddf00ff7f24469c72404e8df85e9, type: 3}
         ObjectsToSpawn:
@@ -4919,13 +4843,9 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitEye
         AnimBoolParameters:
         - ParamName: right
-          Value: 0
-        - ParamName: left
-          Value: 1
-        - ParamName: low
           Value: 0
         HitSfx: {fileID: 8300000, guid: 1cd9fbc4bb2c19749aa2e61afd72aaaa, type: 3}
         ObjectsToSpawn:
@@ -4948,13 +4868,9 @@ MonoBehaviour:
       Probability: 1
       Effect:
         AnimForceParam: force
-        AnimTriggerParam: hit
+        AnimTriggerParam: hitEye
         AnimBoolParameters:
         - ParamName: right
-          Value: 0
-        - ParamName: left
-          Value: 1
-        - ParamName: low
           Value: 0
         HitSfx: {fileID: 8300000, guid: df7b0527bedef454c888055c076048ed, type: 3}
         ObjectsToSpawn:

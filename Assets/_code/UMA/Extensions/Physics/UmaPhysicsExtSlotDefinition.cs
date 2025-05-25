@@ -27,7 +27,10 @@ namespace Sergei.Safonov.UMA {
         private int _collidersLayerToSet;
 
         public void SetupPhysicsAvatar(UMAData umaData) {
-            UmaPhysicsExtAvatar physicsAvatar = umaData.gameObject.GetOrAddComponent<UmaPhysicsExtAvatar>();
+            if (umaData.TryGetComponent<UmaPhysicsExtAvatar>(out var physicsAvatar)) {
+                return;
+            }
+            physicsAvatar = umaData.gameObject.AddComponent<UmaPhysicsExtAvatar>();
             physicsAvatar.AnimatorEnabledOnStart = _animatorEnabledOnStart;
             physicsAvatar.AreKinematicOnStart = _areKinematicOnStart;
             physicsAvatar.UseGravityOnStart = _useGravityOnStart;

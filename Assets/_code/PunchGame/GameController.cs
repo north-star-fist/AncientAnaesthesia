@@ -1,4 +1,5 @@
 using Coolball;
+using Cysharp.Threading.Tasks;
 using R3;
 using Sergei.Safonov.UMA;
 using Sergei.Safonov.Unity.Util;
@@ -167,16 +168,19 @@ namespace AncientAnaesthesia {
             }
         }
 
-        private void Punch(Vector3 hitPosition, Vector3 hitNormal, Collider hitCollider) {
+        private async UniTask Punch(Vector3 hitPosition, Vector3 hitNormal, Collider hitCollider) {
             string areaId = GetHitArea(hitCollider, hitPosition);
             if (areaId == null) {
                 return;
             }
 
-            ProcessAreaEffects(areaId, _punchForce.Value, hitPosition, hitNormal);
-
-            // UMA Avatar special updates
+            // UMA-specific updates
             _patient.Damage(areaId, hitPosition, hitNormal, _punchForce.Value);
+
+            await UniTask.WaitForEndOfFrame(this);
+
+            // General updates
+            ProcessAreaEffects(areaId, _punchForce.Value, hitPosition, hitNormal);
         }
 
         private string GetHitArea(Collider hitCollider, Vector3 position) {
